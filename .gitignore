@@ -397,3 +397,8 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+Auction/.vs/Auction/FileContentIndex/1d5e5287-a96f-412a-a434-e000cd5bc2aa.vsidx
+Auction/.vs/Auction/v17/.futdcache.v2
+Auction/.vs/Auction/v17/DocumentLayout.json
+Auction/.vs/ProjectEvaluation/auction.metadata.v7.bin
+Auction/.vs/ProjectEvaluation/auction.projects.v7.bin
