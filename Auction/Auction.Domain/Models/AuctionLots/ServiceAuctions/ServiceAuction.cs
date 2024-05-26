@@ -7,7 +7,9 @@ namespace Auction.Domain.Models.AuctionLots.ServiceAuctions
 {
     public class ServiceAuction : Entity
     {
-        public long LotId { get; set; }
+        public required long SallerId { get; set; }
+        public long CurrentWinnerId { get; set; }
+        public long ServiceId { get; set; }
         public required string Title { get; set; }
         public string? Description { get; set; }
         public required Service Service { get; set; }
@@ -15,6 +17,5 @@ namespace Auction.Domain.Models.AuctionLots.ServiceAuctions
         public decimal CurrentPrice { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
-        public User? CurrentWinner { get; set; }
     }
 }

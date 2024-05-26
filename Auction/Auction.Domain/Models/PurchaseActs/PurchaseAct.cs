@@ -10,13 +10,11 @@ namespace Auction.Domain.Models.PurchaseActs
 {
     public class PurchaseAct : Entity
     {
-        public long PurchaseId { get; set; }
-
         public required long LotId { get; set; }
 
-        public required string BuyerName { get; set; }
+        public required long BuyerId { get; set; }
 
-        public required string SellerName { get; set; }
+        public required long SellerId { get; set; }
 
         public required decimal Price { get; set; }
 

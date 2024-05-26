@@ -15,9 +15,7 @@ namespace Auction.Domain.Models.Users
         public required string PasswordHash { get; set; }
         public required string Email { get; set; }
         public PaymentCard? BankCard { get; set; }
-        public List<Product>? Products { get; set; }
         public UserContact? Contact { get; set; }
-
         public UserRole Role { get; set; }
     }
 }

@@ -1,8 +1,8 @@
-﻿
+﻿using Auction.Domain.Abstractions;
 
 namespace Auction.Domain.Models.PaymentCards
 {
-    public class PaymentCard
+    public class PaymentCard : Entity
     {
         public required long UserId { get; set; }
         public required long CardNumber { get; set; }
